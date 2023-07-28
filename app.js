@@ -10,10 +10,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static("public")); // for displaying image
 app.engine('ejs', ejsMate);
 
-app.get('/home', (req, res) => {
-    res.render('home');
-})
-
 app.get('/aboutMe', (req, res) => {
     res.render('aboutMe');
 })
@@ -28,6 +24,10 @@ app.get('/projects', (req, res) => {
 
 app.get('/contactMe', (req, res) => {
     res.render('contactMe');
+})
+
+app.get('/experience', (req, res) => {
+    res.render('experience')
 })
 
 app.listen(port, () => {

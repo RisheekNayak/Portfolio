@@ -1,0 +1,15 @@
+body{
+    background-color: #ebe5e5;
+}
+
+.resume {
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 6px 9px;
+    border:solid 2px #000000;
+}
+  
+.resume:hover, .resume:active {
+    transition: all .4s ease-in-out;
+    background: #c2c0c0;
+}
