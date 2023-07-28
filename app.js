@@ -7,7 +7,7 @@ const port = 3000;
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
-app.use(express.static("public")); // for displaying image
+app.use(express.static("public")); 
 app.engine('ejs', ejsMate);
 
 app.get('/aboutMe', (req, res) => {
