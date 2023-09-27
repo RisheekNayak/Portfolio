@@ -10,7 +10,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static("public")); 
 app.engine('ejs', ejsMate);
 
-app.get('/aboutMe', (req, res) => {
+app.get('/', (req, res) => {
     res.render('aboutMe');
 })
 
