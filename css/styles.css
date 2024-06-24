@@ -337,6 +337,10 @@ footer {
     color: #374054;
 }
 
+#about .aboutImage {
+    float: left;
+}
+
 /* Experience section styles */
 #experience {
     padding: 50px 15px;
@@ -762,6 +766,11 @@ footer {
     .project-image {
         display: none;
     }
+
+    #about .aboutImage {
+        float: inherit;
+    }
+    
     .project-info {
         position: relative;
         margin: 0;
